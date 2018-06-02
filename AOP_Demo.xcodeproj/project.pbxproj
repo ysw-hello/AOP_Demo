@@ -19,6 +19,9 @@
 		E8F62AFE20C2370400842052 /* UserLogConfigDefine.h in Sources */ = {isa = PBXBuildFile; fileRef = E8F62AFD20C236DF00842052 /* UserLogConfigDefine.h */; };
 		E8F62B0120C2376400842052 /* UserLog_SELHookTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F62B0020C2376400842052 /* UserLog_SELHookTool.m */; };
 		E8F62B0420C237BB00842052 /* NSObject+configNameList.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F62B0320C237BB00842052 /* NSObject+configNameList.m */; };
+		E8F62B0A20C23ECF00842052 /* moduleLogList_One.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8F62B0920C23ECF00842052 /* moduleLogList_One.plist */; };
+		E8F62B0C20C23EDE00842052 /* moduleLogList_Two.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8F62B0B20C23EDE00842052 /* moduleLogList_Two.plist */; };
+		E8F62B0E20C23EF100842052 /* moduleLogList_Three.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8F62B0D20C23EF100842052 /* moduleLogList_Three.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,9 @@
 		E8F62B0020C2376400842052 /* UserLog_SELHookTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserLog_SELHookTool.m; sourceTree = "<group>"; };
 		E8F62B0220C237BB00842052 /* NSObject+configNameList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+configNameList.h"; sourceTree = "<group>"; };
 		E8F62B0320C237BB00842052 /* NSObject+configNameList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+configNameList.m"; sourceTree = "<group>"; };
+		E8F62B0920C23ECF00842052 /* moduleLogList_One.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = moduleLogList_One.plist; sourceTree = "<group>"; };
+		E8F62B0B20C23EDE00842052 /* moduleLogList_Two.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = moduleLogList_Two.plist; sourceTree = "<group>"; };
+		E8F62B0D20C23EF100842052 /* moduleLogList_Three.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = moduleLogList_Three.plist; sourceTree = "<group>"; };
 		FA29FBC7F1EC4B0A18768F48 /* Pods-AOP_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOP_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AOP_Demo/Pods-AOP_Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +136,9 @@
 				E8F62ACB20C2343200842052 /* AppDelegate.m */,
 				E8F62ACD20C2343200842052 /* ViewController.h */,
 				E8F62ACE20C2343200842052 /* ViewController.m */,
+				E8F62B0620C23E5400842052 /* 组件一 */,
+				E8F62B0720C23E6D00842052 /* 组件二 */,
+				E8F62B0820C23E7B00842052 /* 组件三 */,
 				E8F62B0520C237FA00842052 /* Other */,
 			);
 			path = AOP_Demo;
@@ -175,6 +184,30 @@
 				E8F62AD920C2343200842052 /* main.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		E8F62B0620C23E5400842052 /* 组件一 */ = {
+			isa = PBXGroup;
+			children = (
+				E8F62B0920C23ECF00842052 /* moduleLogList_One.plist */,
+			);
+			path = "组件一";
+			sourceTree = "<group>";
+		};
+		E8F62B0720C23E6D00842052 /* 组件二 */ = {
+			isa = PBXGroup;
+			children = (
+				E8F62B0B20C23EDE00842052 /* moduleLogList_Two.plist */,
+			);
+			path = "组件二";
+			sourceTree = "<group>";
+		};
+		E8F62B0820C23E7B00842052 /* 组件三 */ = {
+			isa = PBXGroup;
+			children = (
+				E8F62B0D20C23EF100842052 /* moduleLogList_Three.plist */,
+			);
+			path = "组件三";
 			sourceTree = "<group>";
 		};
 		E92E6115FC2125BA92E86E3B /* Frameworks */ = {
@@ -296,6 +329,9 @@
 			files = (
 				E8F62AD720C2343200842052 /* LaunchScreen.storyboard in Resources */,
 				E8F62AD420C2343200842052 /* Assets.xcassets in Resources */,
+				E8F62B0E20C23EF100842052 /* moduleLogList_Three.plist in Resources */,
+				E8F62B0A20C23ECF00842052 /* moduleLogList_One.plist in Resources */,
+				E8F62B0C20C23EDE00842052 /* moduleLogList_Two.plist in Resources */,
 				E8F62AD220C2343200842052 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
