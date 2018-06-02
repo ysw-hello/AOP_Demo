@@ -50,7 +50,7 @@
 		E8F62ACD20C2343200842052 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E8F62ACE20C2343200842052 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E8F62AD120C2343200842052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E8F62AD320C2343200842052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8F62AD320C2343200842052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Other/Assets.xcassets; sourceTree = "<group>"; };
 		E8F62AD620C2343200842052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8F62AD820C2343200842052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8F62AD920C2343200842052 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -139,7 +139,11 @@
 				E8F62B0620C23E5400842052 /* 组件一 */,
 				E8F62B0720C23E6D00842052 /* 组件二 */,
 				E8F62B0820C23E7B00842052 /* 组件三 */,
-				E8F62B0520C237FA00842052 /* Other */,
+				E8F62AD020C2343200842052 /* Main.storyboard */,
+				E8F62AD320C2343200842052 /* Assets.xcassets */,
+				E8F62AD520C2343200842052 /* LaunchScreen.storyboard */,
+				E8F62AD820C2343200842052 /* Info.plist */,
+				E8F62AD920C2343200842052 /* main.m */,
 			);
 			path = AOP_Demo;
 			sourceTree = "<group>";
@@ -172,18 +176,6 @@
 				E8F62B0320C237BB00842052 /* NSObject+configNameList.m */,
 			);
 			path = UserLog;
-			sourceTree = "<group>";
-		};
-		E8F62B0520C237FA00842052 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				E8F62AD020C2343200842052 /* Main.storyboard */,
-				E8F62AD320C2343200842052 /* Assets.xcassets */,
-				E8F62AD520C2343200842052 /* LaunchScreen.storyboard */,
-				E8F62AD820C2343200842052 /* Info.plist */,
-				E8F62AD920C2343200842052 /* main.m */,
-			);
-			path = Other;
 			sourceTree = "<group>";
 		};
 		E8F62B0620C23E5400842052 /* 组件一 */ = {
@@ -577,11 +569,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W4FX4F26GS;
 				INFOPLIST_FILE = AOP_Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ysw.AOP-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -593,11 +585,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W4FX4F26GS;
 				INFOPLIST_FILE = AOP_Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ysw.AOP-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
