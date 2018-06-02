@@ -13,7 +13,7 @@
 - (UIViewController *)viewControllerWithContentText:(NSString *)contentText {
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     params[@"contentText"] = contentText;
-    return [self performTarget:@"Two" action:@"viewController" params:params shouldCacheTarget:NO];
+    return [self performTarget:@"Two" action:@"viewController:" params:params shouldCacheTarget:NO];
 }
 
 @end

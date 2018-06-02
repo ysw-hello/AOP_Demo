@@ -11,7 +11,7 @@
 
 @implementation Module_three
 
-- (UIViewController *)Action_viewController:(NSDictionary *)params {
+- (UIViewController *)Action_viewController {
     ThreeViewController *viewController = [[ThreeViewController alloc] init];
     return viewController;
 }

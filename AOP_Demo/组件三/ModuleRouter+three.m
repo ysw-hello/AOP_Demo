@@ -11,7 +11,7 @@
 @implementation ModuleRouter (three)
 
 - (UIViewController *)viewController {
-    return [self performTarget:@"Three" action:@"viewController" params:nil shouldCacheTarget:NO];
+    return [self performTarget:@"three" action:@"viewController" params:nil shouldCacheTarget:NO];//注意拼写，大小写，一个字母或符号都不能出错
 }
 
 @end

@@ -11,6 +11,6 @@
 
 @interface Module_three : NSObject
 
-- (UIViewController *)Action_viewController:(NSDictionary *)params;
+- (UIViewController *)Action_viewController;
 
 @end

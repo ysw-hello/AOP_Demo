@@ -7,11 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "ModuleRouter.h"
 
 #import "ModuleRouter+one.h"
 #import "ModuleRouter+two.h"
 #import "ModuleRouter+three.h"
-#import "ModuleRouter.h"
 
 @interface ViewController ()
 {
