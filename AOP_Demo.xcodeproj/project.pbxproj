@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A51DE91F9E65974EC5AE7AC0 /* libPods-AOP_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48314625424259FD4646AB5B /* libPods-AOP_Demo.a */; };
+		E86BEBB120C28A86005EF429 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BEBAF20C28A86005EF429 /* OneViewController.m */; };
+		E86BEBB220C28A86005EF429 /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86BEBB020C28A86005EF429 /* OneViewController.xib */; };
+		E86BEBB620C28AA1005EF429 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BEBB420C28AA1005EF429 /* TwoViewController.m */; };
+		E86BEBB720C28AA1005EF429 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86BEBB520C28AA1005EF429 /* TwoViewController.xib */; };
+		E86BEBBB20C28AB1005EF429 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BEBB920C28AB1005EF429 /* ThreeViewController.m */; };
+		E86BEBBC20C28AB1005EF429 /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86BEBBA20C28AB1005EF429 /* ThreeViewController.xib */; };
+		E86BEBBF20C2952D005EF429 /* ModuleRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BEBBE20C2952D005EF429 /* ModuleRouter.m */; };
 		E8F62ACC20C2343200842052 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F62ACB20C2343200842052 /* AppDelegate.m */; };
 		E8F62ACF20C2343200842052 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F62ACE20C2343200842052 /* ViewController.m */; };
 		E8F62AD220C2343200842052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F62AD020C2343200842052 /* Main.storyboard */; };
@@ -44,6 +51,17 @@
 /* Begin PBXFileReference section */
 		48314625424259FD4646AB5B /* libPods-AOP_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AOP_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F983A5DC0F82C7EC6729CA1 /* Pods-AOP_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOP_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AOP_Demo/Pods-AOP_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		E86BEBAE20C28A86005EF429 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		E86BEBAF20C28A86005EF429 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		E86BEBB020C28A86005EF429 /* OneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
+		E86BEBB320C28AA1005EF429 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		E86BEBB420C28AA1005EF429 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		E86BEBB520C28AA1005EF429 /* TwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		E86BEBB820C28AB1005EF429 /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		E86BEBB920C28AB1005EF429 /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		E86BEBBA20C28AB1005EF429 /* ThreeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
+		E86BEBBD20C2952D005EF429 /* ModuleRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleRouter.h; sourceTree = "<group>"; };
+		E86BEBBE20C2952D005EF429 /* ModuleRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleRouter.m; sourceTree = "<group>"; };
 		E8F62AC720C2343200842052 /* AOP_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOP_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F62ACA20C2343200842052 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8F62ACB20C2343200842052 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -136,6 +154,8 @@
 				E8F62ACB20C2343200842052 /* AppDelegate.m */,
 				E8F62ACD20C2343200842052 /* ViewController.h */,
 				E8F62ACE20C2343200842052 /* ViewController.m */,
+				E86BEBBD20C2952D005EF429 /* ModuleRouter.h */,
+				E86BEBBE20C2952D005EF429 /* ModuleRouter.m */,
 				E8F62B0620C23E5400842052 /* 组件一 */,
 				E8F62B0720C23E6D00842052 /* 组件二 */,
 				E8F62B0820C23E7B00842052 /* 组件三 */,
@@ -182,6 +202,9 @@
 			isa = PBXGroup;
 			children = (
 				E8F62B0920C23ECF00842052 /* moduleLogList_One.plist */,
+				E86BEBAE20C28A86005EF429 /* OneViewController.h */,
+				E86BEBAF20C28A86005EF429 /* OneViewController.m */,
+				E86BEBB020C28A86005EF429 /* OneViewController.xib */,
 			);
 			path = "组件一";
 			sourceTree = "<group>";
@@ -190,6 +213,9 @@
 			isa = PBXGroup;
 			children = (
 				E8F62B0B20C23EDE00842052 /* moduleLogList_Two.plist */,
+				E86BEBB320C28AA1005EF429 /* TwoViewController.h */,
+				E86BEBB420C28AA1005EF429 /* TwoViewController.m */,
+				E86BEBB520C28AA1005EF429 /* TwoViewController.xib */,
 			);
 			path = "组件二";
 			sourceTree = "<group>";
@@ -198,6 +224,9 @@
 			isa = PBXGroup;
 			children = (
 				E8F62B0D20C23EF100842052 /* moduleLogList_Three.plist */,
+				E86BEBB820C28AB1005EF429 /* ThreeViewController.h */,
+				E86BEBB920C28AB1005EF429 /* ThreeViewController.m */,
+				E86BEBBA20C28AB1005EF429 /* ThreeViewController.xib */,
 			);
 			path = "组件三";
 			sourceTree = "<group>";
@@ -324,7 +353,10 @@
 				E8F62B0E20C23EF100842052 /* moduleLogList_Three.plist in Resources */,
 				E8F62B0A20C23ECF00842052 /* moduleLogList_One.plist in Resources */,
 				E8F62B0C20C23EDE00842052 /* moduleLogList_Two.plist in Resources */,
+				E86BEBB220C28A86005EF429 /* OneViewController.xib in Resources */,
 				E8F62AD220C2343200842052 /* Main.storyboard in Resources */,
+				E86BEBB720C28AA1005EF429 /* TwoViewController.xib in Resources */,
+				E86BEBBC20C28AB1005EF429 /* ThreeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +434,11 @@
 				E8F62ADA20C2343200842052 /* main.m in Sources */,
 				E8F62ACC20C2343200842052 /* AppDelegate.m in Sources */,
 				E8F62B0420C237BB00842052 /* NSObject+configNameList.m in Sources */,
+				E86BEBB120C28A86005EF429 /* OneViewController.m in Sources */,
+				E86BEBBF20C2952D005EF429 /* ModuleRouter.m in Sources */,
+				E86BEBBB20C28AB1005EF429 /* ThreeViewController.m in Sources */,
 				E8F62B0120C2376400842052 /* UserLog_SELHookTool.m in Sources */,
+				E86BEBB620C28AA1005EF429 /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

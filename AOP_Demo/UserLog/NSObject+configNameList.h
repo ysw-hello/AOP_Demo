@@ -10,4 +10,10 @@
 
 @interface NSObject (configNameList)
 
++ (void)setupOneLogging;
+
++ (void)setupTwoLogging;
+
++ (void)setupThreeLogging;
+
 @end

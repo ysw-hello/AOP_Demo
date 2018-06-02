@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface UserLog_SELHookTool : NSObject
+
++ (void)setupWithConfiguration:(NSDictionary *)configs;
 
 @end

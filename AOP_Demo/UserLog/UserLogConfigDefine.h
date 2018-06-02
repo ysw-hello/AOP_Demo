@@ -9,5 +9,12 @@
 #ifndef UserLogConfigDefine_h
 #define UserLogConfigDefine_h
 
+#define UL_ViewDidAppear @"UL_ViewDidAppear"
+
+#define UL_TrackedEvents @"UL_TrackedEvents"
+
+#define UL_EventName @"UL_EventName"
+#define UL_EventSelectorName @"UL_EventSelectorName"
+
 
 #endif /* UserLogConfigDefine_h */

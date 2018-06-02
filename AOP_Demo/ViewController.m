@@ -8,15 +8,36 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
+{
+    NSArray *_vcArr;
+}
+
 
 @end
 
 @implementation ViewController
 
+#pragma mark - life cycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"组件化及AOP打点";
+    _vcArr = @[@"OneViewController", @"TwoViewController", @"ThreeViewController"];
+}
+
+
+#pragma mark - actions
+- (IBAction)oneTouched:(id)sender {
+    [self.navigationController pushViewController:[NSClassFromString(_vcArr[0]) new] animated:YES];
+}
+- (IBAction)twoTouched:(id)sender {
+    [self.navigationController pushViewController:[NSClassFromString(_vcArr[1]) new] animated:YES];
+}
+- (IBAction)threeTouched:(id)sender {
+    [self.navigationController pushViewController:[NSClassFromString(_vcArr[2]) new] animated:YES];
 }
 
 
