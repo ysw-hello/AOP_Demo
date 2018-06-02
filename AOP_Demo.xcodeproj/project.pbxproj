@@ -15,6 +15,12 @@
 		E86BEBBB20C28AB1005EF429 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BEBB920C28AB1005EF429 /* ThreeViewController.m */; };
 		E86BEBBC20C28AB1005EF429 /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86BEBBA20C28AB1005EF429 /* ThreeViewController.xib */; };
 		E86BEBBF20C2952D005EF429 /* ModuleRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BEBBE20C2952D005EF429 /* ModuleRouter.m */; };
+		E86BEBC220C2A895005EF429 /* Module_One.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BEBC120C2A895005EF429 /* Module_One.m */; };
+		E86BEBC520C2A8C4005EF429 /* ModuleRouter+one.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BEBC420C2A8C4005EF429 /* ModuleRouter+one.m */; };
+		E86BEBC820C2A8E1005EF429 /* Module_Two.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BEBC720C2A8E1005EF429 /* Module_Two.m */; };
+		E86BEBCB20C2A8F7005EF429 /* ModuleRouter+two.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BEBCA20C2A8F7005EF429 /* ModuleRouter+two.m */; };
+		E86BEBCE20C2A910005EF429 /* Module_three.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BEBCD20C2A910005EF429 /* Module_three.m */; };
+		E86BEBD120C2A920005EF429 /* ModuleRouter+three.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BEBD020C2A920005EF429 /* ModuleRouter+three.m */; };
 		E8F62ACC20C2343200842052 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F62ACB20C2343200842052 /* AppDelegate.m */; };
 		E8F62ACF20C2343200842052 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F62ACE20C2343200842052 /* ViewController.m */; };
 		E8F62AD220C2343200842052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F62AD020C2343200842052 /* Main.storyboard */; };
@@ -62,6 +68,18 @@
 		E86BEBBA20C28AB1005EF429 /* ThreeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
 		E86BEBBD20C2952D005EF429 /* ModuleRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleRouter.h; sourceTree = "<group>"; };
 		E86BEBBE20C2952D005EF429 /* ModuleRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleRouter.m; sourceTree = "<group>"; };
+		E86BEBC020C2A895005EF429 /* Module_One.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Module_One.h; sourceTree = "<group>"; };
+		E86BEBC120C2A895005EF429 /* Module_One.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Module_One.m; sourceTree = "<group>"; };
+		E86BEBC320C2A8C4005EF429 /* ModuleRouter+one.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModuleRouter+one.h"; sourceTree = "<group>"; };
+		E86BEBC420C2A8C4005EF429 /* ModuleRouter+one.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ModuleRouter+one.m"; sourceTree = "<group>"; };
+		E86BEBC620C2A8E1005EF429 /* Module_Two.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Module_Two.h; sourceTree = "<group>"; };
+		E86BEBC720C2A8E1005EF429 /* Module_Two.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Module_Two.m; sourceTree = "<group>"; };
+		E86BEBC920C2A8F7005EF429 /* ModuleRouter+two.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModuleRouter+two.h"; sourceTree = "<group>"; };
+		E86BEBCA20C2A8F7005EF429 /* ModuleRouter+two.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ModuleRouter+two.m"; sourceTree = "<group>"; };
+		E86BEBCC20C2A910005EF429 /* Module_three.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Module_three.h; sourceTree = "<group>"; };
+		E86BEBCD20C2A910005EF429 /* Module_three.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Module_three.m; sourceTree = "<group>"; };
+		E86BEBCF20C2A920005EF429 /* ModuleRouter+three.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModuleRouter+three.h"; sourceTree = "<group>"; };
+		E86BEBD020C2A920005EF429 /* ModuleRouter+three.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ModuleRouter+three.m"; sourceTree = "<group>"; };
 		E8F62AC720C2343200842052 /* AOP_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOP_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F62ACA20C2343200842052 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8F62ACB20C2343200842052 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -124,6 +142,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E86BEBD220C2ACB8005EF429 /* 中间件 */ = {
+			isa = PBXGroup;
+			children = (
+				E86BEBBD20C2952D005EF429 /* ModuleRouter.h */,
+				E86BEBBE20C2952D005EF429 /* ModuleRouter.m */,
+			);
+			path = "中间件";
+			sourceTree = "<group>";
+		};
 		E8F62ABE20C2343200842052 = {
 			isa = PBXGroup;
 			children = (
@@ -154,8 +181,7 @@
 				E8F62ACB20C2343200842052 /* AppDelegate.m */,
 				E8F62ACD20C2343200842052 /* ViewController.h */,
 				E8F62ACE20C2343200842052 /* ViewController.m */,
-				E86BEBBD20C2952D005EF429 /* ModuleRouter.h */,
-				E86BEBBE20C2952D005EF429 /* ModuleRouter.m */,
+				E86BEBD220C2ACB8005EF429 /* 中间件 */,
 				E8F62B0620C23E5400842052 /* 组件一 */,
 				E8F62B0720C23E6D00842052 /* 组件二 */,
 				E8F62B0820C23E7B00842052 /* 组件三 */,
@@ -205,6 +231,10 @@
 				E86BEBAE20C28A86005EF429 /* OneViewController.h */,
 				E86BEBAF20C28A86005EF429 /* OneViewController.m */,
 				E86BEBB020C28A86005EF429 /* OneViewController.xib */,
+				E86BEBC020C2A895005EF429 /* Module_One.h */,
+				E86BEBC120C2A895005EF429 /* Module_One.m */,
+				E86BEBC320C2A8C4005EF429 /* ModuleRouter+one.h */,
+				E86BEBC420C2A8C4005EF429 /* ModuleRouter+one.m */,
 			);
 			path = "组件一";
 			sourceTree = "<group>";
@@ -216,6 +246,10 @@
 				E86BEBB320C28AA1005EF429 /* TwoViewController.h */,
 				E86BEBB420C28AA1005EF429 /* TwoViewController.m */,
 				E86BEBB520C28AA1005EF429 /* TwoViewController.xib */,
+				E86BEBC620C2A8E1005EF429 /* Module_Two.h */,
+				E86BEBC720C2A8E1005EF429 /* Module_Two.m */,
+				E86BEBC920C2A8F7005EF429 /* ModuleRouter+two.h */,
+				E86BEBCA20C2A8F7005EF429 /* ModuleRouter+two.m */,
 			);
 			path = "组件二";
 			sourceTree = "<group>";
@@ -227,6 +261,10 @@
 				E86BEBB820C28AB1005EF429 /* ThreeViewController.h */,
 				E86BEBB920C28AB1005EF429 /* ThreeViewController.m */,
 				E86BEBBA20C28AB1005EF429 /* ThreeViewController.xib */,
+				E86BEBCC20C2A910005EF429 /* Module_three.h */,
+				E86BEBCD20C2A910005EF429 /* Module_three.m */,
+				E86BEBCF20C2A920005EF429 /* ModuleRouter+three.h */,
+				E86BEBD020C2A920005EF429 /* ModuleRouter+three.m */,
 			);
 			path = "组件三";
 			sourceTree = "<group>";
@@ -431,13 +469,19 @@
 			files = (
 				E8F62AFE20C2370400842052 /* UserLogConfigDefine.h in Sources */,
 				E8F62ACF20C2343200842052 /* ViewController.m in Sources */,
+				E86BEBC220C2A895005EF429 /* Module_One.m in Sources */,
 				E8F62ADA20C2343200842052 /* main.m in Sources */,
 				E8F62ACC20C2343200842052 /* AppDelegate.m in Sources */,
+				E86BEBC520C2A8C4005EF429 /* ModuleRouter+one.m in Sources */,
 				E8F62B0420C237BB00842052 /* NSObject+configNameList.m in Sources */,
+				E86BEBCB20C2A8F7005EF429 /* ModuleRouter+two.m in Sources */,
 				E86BEBB120C28A86005EF429 /* OneViewController.m in Sources */,
+				E86BEBD120C2A920005EF429 /* ModuleRouter+three.m in Sources */,
 				E86BEBBF20C2952D005EF429 /* ModuleRouter.m in Sources */,
+				E86BEBC820C2A8E1005EF429 /* Module_Two.m in Sources */,
 				E86BEBBB20C28AB1005EF429 /* ThreeViewController.m in Sources */,
 				E8F62B0120C2376400842052 /* UserLog_SELHookTool.m in Sources */,
+				E86BEBCE20C2A910005EF429 /* Module_three.m in Sources */,
 				E86BEBB620C28AA1005EF429 /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -135,31 +135,31 @@
     const char *retType = [methodSignature methodReturnType];
     
     if (strcmp(retType, @encode(void)) == 0) {
-        invocationConfig(target, action, params, methodSignature);
+        [self invocationConfigWithTarget:target action:action params:params methodSignature:methodSignature];
         return nil;
     }
     
     if (strcmp(retType, @encode(NSInteger)) == 0) {
         NSInteger result = 0;
-        [invocationConfig(target, action, params, methodSignature) getReturnValue:&result];
+        [[self invocationConfigWithTarget:target action:action params:params methodSignature:methodSignature] getReturnValue:&result];
         return @(result);
     }
     
     if (strcmp(retType, @encode(BOOL)) == 0) {
         BOOL result = 0;
-        [invocationConfig(target, action, params, methodSignature) getReturnValue:&result];
+        [[self invocationConfigWithTarget:target action:action params:params methodSignature:methodSignature] getReturnValue:&result];
         return @(result);
     }
     
     if (strcmp(retType, @encode(NSUInteger)) == 0) {
         NSUInteger result = 0;
-        [invocationConfig(target, action, params, methodSignature) getReturnValue:&result];
+        [[self invocationConfigWithTarget:target action:action params:params methodSignature:methodSignature] getReturnValue:&result];
         return @(result);
     }
     
     if (strcmp(retType, @encode(CGFloat)) == 0) {
         CGFloat result = 0;
-        [invocationConfig(target, action, params, methodSignature) getReturnValue:&result];
+        [[self invocationConfigWithTarget:target action:action params:params methodSignature:methodSignature] getReturnValue:&result];
         return @(result);
     }
 
@@ -169,7 +169,7 @@
 #pragma clang diagnostic pop
 }
 
-inline NSInvocation* invocationConfig (id target, SEL action, NSDictionary *params, NSMethodSignature *methodSignature) {
+- (NSInvocation *)invocationConfigWithTarget:(id)target action:(SEL)action params:(NSDictionary *)params methodSignature:(NSMethodSignature *)methodSignature {
     NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSignature];
     [invocation setArgument:&params atIndex:2];
     [invocation setSelector:action];
