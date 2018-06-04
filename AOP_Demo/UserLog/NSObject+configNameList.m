@@ -32,4 +32,10 @@
     [UserLog_SELHookTool setupWithConfiguration:config];
 }
 
++ (void)setupAllLogging {
+    [NSObject setupOneLogging];
+    [NSObject setupTwoLogging];
+    [NSObject setupThreeLogging];
+}
+
 @end

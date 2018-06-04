@@ -16,4 +16,6 @@
 
 + (void)setupThreeLogging;
 
++ (void)setupAllLogging;
+
 @end

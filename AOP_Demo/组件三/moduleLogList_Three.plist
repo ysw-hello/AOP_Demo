@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   moduleLogList_Three.plist
-   AOP_Demo
-
-   Created by 闫士伟 on 2018/6/2.
-   Copyright (c) 2018年 闫士伟. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
+<dict>
+	<key>ThreeViewController</key>
     <dict>
-    
+        <key>UL_ViewDidAppear_Name</key>
+        <string>ModuleThree_VCAppear</string>
+        <key>UL_ViewDidDisappear_Name</key>
+        <string>ModuleThree_VCDisappear</string>
     </dict>
+</dict>
 </plist>

@@ -1,14 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   moduleLogList_One.plist
-   AOP_Demo
-
-   Created by 闫士伟 on 2018/6/2.
-   Copyright (c) 2018年 闫士伟. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>OneViewController</key>
+	<dict>
+		<key>UL_ViewDidAppear_Name</key>
+		<string>ModuleOne_VCAppear</string>
+		<key>UL_ViewDidDisappear_Name</key>
+		<string>ModuleOne_VCDisappear</string>
+		<key>UL_TrackedEvents</key>
+		<array>
+			<dict>
+				<key>UL_Event_Name</key>
+				<string>ModuleOne_AlertShow</string>
+				<key>UL_EventSelector</key>
+				<string>alertShow</string>
+			</dict>
+			<dict>
+				<key>UL_Event_Name</key>
+				<string>ModuleOne_switchOn</string>
+				<key>UL_EventSelector</key>
+				<string>switchOn</string>
+			</dict>
+			<dict>
+				<key>UL_Event_Name</key>
+				<string>ModuleOne_switchOff</string>
+				<key>UL_EventSelector</key>
+				<string>switchOff</string>
+			</dict>
+			<dict>
+				<key>UL_Event_Name</key>
+				<string>ModuleOne_BlueTouched</string>
+				<key>UL_EventSelector</key>
+				<string>blueTouched:</string>
+			</dict>
+			<dict>
+				<key>UL_Event_Name</key>
+				<string>ModuleOne_RedTouched</string>
+				<key>UL_EventSelector</key>
+				<string>redTouched:</string>
+			</dict>
+			<dict>
+				<key>UL_Event_Name</key>
+				<string>ModuleOne_BrownTouched</string>
+				<key>UL_EventSelector</key>
+				<string>brownTouched:</string>
+			</dict>
+			<dict>
+				<key>UL_Event_Name</key>
+				<string>ModuleOne_PushModuleTwo</string>
+				<key>UL_EventSelector</key>
+				<string>moduleTwoTouched:</string>
+			</dict>
+			<dict>
+				<key>UL_Event_Name</key>
+				<string>ModuleOne_PushModuleThree</string>
+				<key>UL_EventSelector</key>
+				<string>moduleThreeTouched：</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
 </plist>
