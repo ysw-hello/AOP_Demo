@@ -21,7 +21,7 @@
                                        NSString *className = NSStringFromClass([[aspectInfo instance] class]);
                                        NSString *logName = configs[className][UL_VCState_DidAppear_Name];
                                        if (logName) {
-                                           NSLog(@"logName:%@, className:%@", logName, className);
+                                           NSLog(@"logName:%@,        className:%@", logName, className);
                                        }
                                    });
                                }
@@ -34,7 +34,7 @@
                                        NSString *className = NSStringFromClass([[aspectInfo instance] class]);
                                        NSString *logName = configs[className][UL_VCState_DidDisappear_Name];
                                        if (logName) {
-                                           NSLog(@"logName:%@, className:%@", logName, className);
+                                           NSLog(@"logName:%@,        className:%@", logName, className);
                                        }
                                    });
                                }
@@ -55,7 +55,7 @@
                              withOptions:AspectPositionAfter
                               usingBlock:^(id<AspectInfo> aspectInfo) {
                                   dispatch_async(dispatch_get_global_queue(0, 0), ^{
-                                      NSLog(@"EventName:%@", event[UL_Event_Name]);
+                                      NSLog(@"EventName:%@,        ClassName:%@", event[UL_Event_Name], className);
                                   });
                               }
                                    error:NULL];
