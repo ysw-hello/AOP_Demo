@@ -6,9 +6,8 @@
 	<dict>
 		<key>UL_VCState_DidAppear_Name</key>
 		<string>ModuleOne_VCAppear</string>
-        <key>UL_VCState_DidDisappear_Name</key>
-        <string>ModuleOne_VCDisappear</string>
-
+		<key>UL_VCState_DidDisappear_Name</key>
+		<string>ModuleOne_VCDisappear</string>
 		<key>UL_TrackedEvents</key>
 		<array>
 			<dict>
@@ -57,7 +56,7 @@
 				<key>UL_Event_Name</key>
 				<string>ModuleOne_PushModuleThree</string>
 				<key>UL_EventSelector</key>
-				<string>moduleThreeTouched：</string>
+				<string>moduleThreeTouched:</string>
 			</dict>
 		</array>
 	</dict>
