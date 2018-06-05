@@ -19,6 +19,18 @@
     [NSObject setupThreeLogging];
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    //打点
+    
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    //打点
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     

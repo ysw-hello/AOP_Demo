@@ -4,10 +4,11 @@
 <dict>
 	<key>OneViewController</key>
 	<dict>
-		<key>UL_ViewDidAppear_Name</key>
+		<key>UL_VCState_DidAppear_Name</key>
 		<string>ModuleOne_VCAppear</string>
-		<key>UL_ViewDidDisappear_Name</key>
-		<string>ModuleOne_VCDisappear</string>
+        <key>UL_VCState_DidDisappear_Name</key>
+        <string>ModuleOne_VCDisappear</string>
+
 		<key>UL_TrackedEvents</key>
 		<array>
 			<dict>

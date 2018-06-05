@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TwoViewController : UIViewController
+@interface TwoViewController : BaseViewController
 
 @end

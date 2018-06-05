@@ -22,4 +22,6 @@
 
 #import "NSObject+configNameList.h"
 
+#import "BaseViewController.h"
+
 #endif /* PrefixHeader_pch */

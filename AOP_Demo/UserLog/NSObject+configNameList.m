@@ -17,6 +17,11 @@
     return dic;
 }
 
++ (void)setupEntryLogging {
+    NSDictionary * config = [NSObject dictionaryFromConfigPlistForName:@"mainEntryList"];
+    [UserLog_SELHookTool setupWithConfiguration:config];
+}
+
 + (void)setupOneLogging {
     NSDictionary * config = [NSObject dictionaryFromConfigPlistForName:@"moduleLogList_One"];
     [UserLog_SELHookTool setupWithConfiguration:config];

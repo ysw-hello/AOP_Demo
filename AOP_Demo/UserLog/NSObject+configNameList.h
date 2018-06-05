@@ -10,6 +10,8 @@
 
 @interface NSObject (configNameList)
 
++ (void)setupEntryLogging;
+
 + (void)setupOneLogging;
 
 + (void)setupTwoLogging;

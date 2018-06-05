@@ -16,6 +16,24 @@
 
 #pragma mark - life cycle
 
++ (void)initialize {
+    [super initialize];
+    
+    [NSObject setupEntryLogging];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    //打点
+    
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    //打点
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A51DE91F9E65974EC5AE7AC0 /* libPods-AOP_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48314625424259FD4646AB5B /* libPods-AOP_Demo.a */; };
+		E852475320C52876006D0BAB /* mainEntryList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E852475220C52876006D0BAB /* mainEntryList.plist */; };
+		E852475620C689B8006D0BAB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E852475520C689B8006D0BAB /* BaseViewController.m */; };
 		E86BEBB120C28A86005EF429 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BEBAF20C28A86005EF429 /* OneViewController.m */; };
 		E86BEBB220C28A86005EF429 /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86BEBB020C28A86005EF429 /* OneViewController.xib */; };
 		E86BEBB620C28AA1005EF429 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BEBB420C28AA1005EF429 /* TwoViewController.m */; };
@@ -58,6 +60,9 @@
 		48314625424259FD4646AB5B /* libPods-AOP_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AOP_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F983A5DC0F82C7EC6729CA1 /* Pods-AOP_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOP_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AOP_Demo/Pods-AOP_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		E852475120C51E1F006D0BAB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E852475220C52876006D0BAB /* mainEntryList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = mainEntryList.plist; sourceTree = "<group>"; };
+		E852475420C689B8006D0BAB /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E852475520C689B8006D0BAB /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		E86BEBAE20C28A86005EF429 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
 		E86BEBAF20C28A86005EF429 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 		E86BEBB020C28A86005EF429 /* OneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
@@ -181,6 +186,9 @@
 				E8F62ACB20C2343200842052 /* AppDelegate.m */,
 				E8F62ACD20C2343200842052 /* ViewController.h */,
 				E8F62ACE20C2343200842052 /* ViewController.m */,
+				E852475420C689B8006D0BAB /* BaseViewController.h */,
+				E852475520C689B8006D0BAB /* BaseViewController.m */,
+				E852475220C52876006D0BAB /* mainEntryList.plist */,
 				E8F62AFC20C2363D00842052 /* UserLog */,
 				E86BEBD220C2ACB8005EF429 /* 中间件 */,
 				E8F62B0620C23E5400842052 /* 组件一 */,
@@ -388,6 +396,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E852475320C52876006D0BAB /* mainEntryList.plist in Resources */,
 				E8F62AD720C2343200842052 /* LaunchScreen.storyboard in Resources */,
 				E8F62AD420C2343200842052 /* Assets.xcassets in Resources */,
 				E8F62B0E20C23EF100842052 /* moduleLogList_Three.plist in Resources */,
@@ -476,6 +485,7 @@
 				E8F62ACC20C2343200842052 /* AppDelegate.m in Sources */,
 				E86BEBC520C2A8C4005EF429 /* ModuleRouter+one.m in Sources */,
 				E8F62B0420C237BB00842052 /* NSObject+configNameList.m in Sources */,
+				E852475620C689B8006D0BAB /* BaseViewController.m in Sources */,
 				E86BEBCB20C2A8F7005EF429 /* ModuleRouter+two.m in Sources */,
 				E86BEBB120C28A86005EF429 /* OneViewController.m in Sources */,
 				E86BEBD120C2A920005EF429 /* ModuleRouter+three.m in Sources */,

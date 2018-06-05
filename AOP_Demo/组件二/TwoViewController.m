@@ -19,7 +19,6 @@
     [NSObject setupTwoLogging];
 }
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"组件二";
