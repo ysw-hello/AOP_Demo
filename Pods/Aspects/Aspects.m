@@ -554,7 +554,6 @@ static NSMutableDictionary *aspect_getSwizzledClassesDict() {
     static dispatch_once_t pred;
     dispatch_once(&pred, ^{
         swizzledClassesDict = [NSMutableDictionary new];
-        
     });
     return swizzledClassesDict;
 }

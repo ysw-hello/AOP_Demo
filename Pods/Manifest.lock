@@ -1,12 +1,20 @@
 PODS:
   - Aspects (1.4.1)
+  - FastDevTools (0.0.1)
 
 DEPENDENCIES:
   - Aspects (~> 1.4.1)
+  - FastDevTools (~> 0.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Aspects
+    - FastDevTools
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  FastDevTools: 9d97c225bb07d247c96ce280df835da54f58e9bf
 
-PODFILE CHECKSUM: 21e1437c8396b160c7cff164a7f0efdb7c5ee044
+PODFILE CHECKSUM: dec4e44abedf6962f9da73f145a4a430fe3ea06e
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.3

@@ -38,6 +38,7 @@
 }
 
 + (void)setupAllLogging {
+    [NSObject setupEntryLogging];
     [NSObject setupOneLogging];
     [NSObject setupTwoLogging];
     [NSObject setupThreeLogging];

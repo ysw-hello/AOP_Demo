@@ -7,5 +7,6 @@ target “AOP_Demo” do
 
 pod 'Aspects', '~> 1.4.1'
 
+pod 'FastDevTools', '~> 0.0.1'
 
 end
