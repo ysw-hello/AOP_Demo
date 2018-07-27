@@ -9,6 +9,4 @@ pod 'Aspects', '~> 1.4.1'
 
 pod 'FastDevTools', '~> 0.0.1'
 
-pod 'Texture'
-
 end
