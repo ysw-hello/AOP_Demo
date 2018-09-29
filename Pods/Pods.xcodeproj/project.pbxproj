@@ -7,58 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0773750B225AC08B7149DD0A4615047E /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC54DDE74B58630FCF400AA8FB227BC /* Aspects-dummy.m */; };
-		173F702E7290E30F545DDCF59A9FA563 /* FastDevTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA37E1F3F432ECDECEA4A7391CBB4E98 /* FastDevTools-dummy.m */; };
-		2A2D943B3EA93FCCCF74C0373013DCDC /* Pods-AOP_Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2908B666338373457B9AC08A8B38F3 /* Pods-AOP_Demo-dummy.m */; };
-		4265519DEE8A996AF3030FCC957DFA23 /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E7C3391F2CCECA0980C44402B4C330 /* Aspects.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		66C9E695B78BE3654990F8271506F3E5 /* NSObject+AssetsSaveToPhotoLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDFD6C8CDEA697A17389C22A7F76FB3 /* NSObject+AssetsSaveToPhotoLibrary.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8F35E714E7A993241D1B713F252BCF1A /* NSObject+AssetsSaveToPhotoLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = A6A87543965E29321A33009A4D407442 /* NSObject+AssetsSaveToPhotoLibrary.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9F78EB14BF906BA008D5008C43FC933B /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF3B6592D4BFE354F50AD37FA8659 /* Aspects.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C73BD322E98B54144B1F33A6275F183C /* YSW_WaterWave.m in Sources */ = {isa = PBXBuildFile; fileRef = F37B7620F949C729347FB3270FDF7FD4 /* YSW_WaterWave.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CE4216665FE49212C202758CAC8460BA /* YSW_WaterWave.h in Headers */ = {isa = PBXBuildFile; fileRef = 78FF9F23A65BCF69494ADD2B1318AB14 /* YSW_WaterWave.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0773750B225AC08B7149DD0A4615047E /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 786587BD911A45F5A76A03E1D23AA280 /* Aspects-dummy.m */; };
+		4265519DEE8A996AF3030FCC957DFA23 /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = CC40F1C41FCB9B2BDCA16245047437A8 /* Aspects.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F78EB14BF906BA008D5008C43FC933B /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 86429B9296478D798A288217DFFBC51A /* Aspects.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A8032110656777C8DB734B8FD4185C54 /* Pods-AOP_Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2908B666338373457B9AC08A8B38F3 /* Pods-AOP_Demo-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9EB6D3D3B3702F0B8D0066F328B8A4CF /* PBXContainerItemProxy */ = {
+		EFE6E9B1842E6A629E05F1AE0F2EB80A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9FADA4D8276789ECF68B0188890DDC22;
 			remoteInfo = Aspects;
 		};
-		E5D8E4C2F73664E965393F1466A98FD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 94B1E672275421449A85123DFE9BD7DA;
-			remoteInfo = FastDevTools;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F7C12E9A94AB7FC33DD8304061AC7AE /* FastDevTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastDevTools-prefix.pch"; sourceTree = "<group>"; };
-		20E7C3391F2CCECA0980C44402B4C330 /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
-		2E88B18E25930E130D9C16E3F88A101E /* libFastDevTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFastDevTools.a; path = libFastDevTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FC54DDE74B58630FCF400AA8FB227BC /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
-		42DBFF799468E0ADB7607AAD365530EA /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
+		3956CE22C78DCFD205364926EBE13616 /* libAspects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAspects.a; path = libAspects.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D36276B20C0251B59FB0407AED36CD /* Pods-AOP_Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AOP_Demo-frameworks.sh"; sourceTree = "<group>"; };
 		5F1D9BB9D336E828307250EA8981AABA /* Pods-AOP_Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AOP_Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6C9BF3B6592D4BFE354F50AD37FA8659 /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
-		78FF9F23A65BCF69494ADD2B1318AB14 /* YSW_WaterWave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YSW_WaterWave.h; path = WaterWave/YSW_WaterWave.h; sourceTree = "<group>"; };
+		786587BD911A45F5A76A03E1D23AA280 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
+		86429B9296478D798A288217DFFBC51A /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
 		8D2908B666338373457B9AC08A8B38F3 /* Pods-AOP_Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AOP_Demo-dummy.m"; sourceTree = "<group>"; };
-		911561A2C033794BAD1A935C2BF29334 /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
-		916EF9059EACE37B3EB43091F775455F /* libAspects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAspects.a; path = libAspects.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		979CADE3197D595B4D57148CEA299EBE /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
 		9F71C5376111DAF6287AF111A9963051 /* Pods-AOP_Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AOP_Demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		A6A87543965E29321A33009A4D407442 /* NSObject+AssetsSaveToPhotoLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+AssetsSaveToPhotoLibrary.h"; path = "AssetsSave/NSObject+AssetsSaveToPhotoLibrary.h"; sourceTree = "<group>"; };
+		A9574DEBB3F753E8385B645E0696AC16 /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
 		AC239A3904EBA886D35433F9C450D7D9 /* Pods-AOP_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AOP_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		C4D4B8BCCD47A6125D6A94CCFC3250E2 /* Pods-AOP_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AOP_Demo.release.xcconfig"; sourceTree = "<group>"; };
-		C6F5635B4690A3F1FDDB2859980EA780 /* libPods-AOP_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AOP_Demo.a"; path = "libPods-AOP_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFDFD6C8CDEA697A17389C22A7F76FB3 /* NSObject+AssetsSaveToPhotoLibrary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AssetsSaveToPhotoLibrary.m"; path = "AssetsSave/NSObject+AssetsSaveToPhotoLibrary.m"; sourceTree = "<group>"; };
+		CC40F1C41FCB9B2BDCA16245047437A8 /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		CE9D771B04141E3182D3E116CA599DDB /* libPods-AOP_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AOP_Demo.a"; path = "libPods-AOP_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0767D9EEC2062F377AD818C6591584 /* Pods-AOP_Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AOP_Demo-resources.sh"; sourceTree = "<group>"; };
-		F37B7620F949C729347FB3270FDF7FD4 /* YSW_WaterWave.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YSW_WaterWave.m; path = WaterWave/YSW_WaterWave.m; sourceTree = "<group>"; };
-		FA37E1F3F432ECDECEA4A7391CBB4E98 /* FastDevTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FastDevTools-dummy.m"; sourceTree = "<group>"; };
-		FFFF444FCAF14CBD8966DC286EBE2E8F /* FastDevTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FastDevTools.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,14 +49,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32FE65F0C31C4B1A81F184051F1E8FCD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		40D4462368C9D3EF31ACBE33A26ADA53 /* Frameworks */ = {
+		CD12ED1C79CC4EF565B73CF0298CE0AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -93,71 +66,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		123DF6D1AB0A3A79FBE672FA7A8AF9CA /* FastDevTools */ = {
-			isa = PBXGroup;
-			children = (
-				A6A87543965E29321A33009A4D407442 /* NSObject+AssetsSaveToPhotoLibrary.h */,
-				CFDFD6C8CDEA697A17389C22A7F76FB3 /* NSObject+AssetsSaveToPhotoLibrary.m */,
-				78FF9F23A65BCF69494ADD2B1318AB14 /* YSW_WaterWave.h */,
-				F37B7620F949C729347FB3270FDF7FD4 /* YSW_WaterWave.m */,
-				B24632619B2F6052B83CA56994DBBFE1 /* Support Files */,
-			);
-			name = FastDevTools;
-			path = FastDevTools;
-			sourceTree = "<group>";
-		};
-		2E657E4CD3B59AF18B681B22E3D29B9E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				916EF9059EACE37B3EB43091F775455F /* libAspects.a */,
-				2E88B18E25930E130D9C16E3F88A101E /* libFastDevTools.a */,
-				C6F5635B4690A3F1FDDB2859980EA780 /* libPods-AOP_Demo.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5497257F9AD2F28E437C5E5992D0D734 /* Aspects */ = {
-			isa = PBXGroup;
-			children = (
-				20E7C3391F2CCECA0980C44402B4C330 /* Aspects.h */,
-				6C9BF3B6592D4BFE354F50AD37FA8659 /* Aspects.m */,
-				90CC7FC56F35D39FFEB204CFE91A40F8 /* Support Files */,
-			);
-			name = Aspects;
-			path = Aspects;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				F7B89F8DD82564151CFDE5E7E8FE4CB1 /* Pods */,
-				2E657E4CD3B59AF18B681B22E3D29B9E /* Products */,
+				F44F05A8F527D3FE55781A7396EFE39E /* Pods */,
+				A1A1FF4CB60F222B117C2DEE90F48053 /* Products */,
 				DDA0E00E5E56B59B43C4370EC3052FCA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		90CC7FC56F35D39FFEB204CFE91A40F8 /* Support Files */ = {
+		A1A1FF4CB60F222B117C2DEE90F48053 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42DBFF799468E0ADB7607AAD365530EA /* Aspects.xcconfig */,
-				2FC54DDE74B58630FCF400AA8FB227BC /* Aspects-dummy.m */,
-				911561A2C033794BAD1A935C2BF29334 /* Aspects-prefix.pch */,
+				3956CE22C78DCFD205364926EBE13616 /* libAspects.a */,
+				CE9D771B04141E3182D3E116CA599DDB /* libPods-AOP_Demo.a */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Aspects";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		B24632619B2F6052B83CA56994DBBFE1 /* Support Files */ = {
+		AB1C6504361C5C1B6E3D2AF3EB01ADC2 /* Aspects */ = {
 			isa = PBXGroup;
 			children = (
-				FFFF444FCAF14CBD8966DC286EBE2E8F /* FastDevTools.xcconfig */,
-				FA37E1F3F432ECDECEA4A7391CBB4E98 /* FastDevTools-dummy.m */,
-				0F7C12E9A94AB7FC33DD8304061AC7AE /* FastDevTools-prefix.pch */,
+				CC40F1C41FCB9B2BDCA16245047437A8 /* Aspects.h */,
+				86429B9296478D798A288217DFFBC51A /* Aspects.m */,
+				F58BDFA3535649F4E0376394DCD504B9 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FastDevTools";
+			name = Aspects;
+			path = Aspects;
 			sourceTree = "<group>";
 		};
 		DDA0E00E5E56B59B43C4370EC3052FCA /* Targets Support Files */ = {
@@ -168,13 +105,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F7B89F8DD82564151CFDE5E7E8FE4CB1 /* Pods */ = {
+		F44F05A8F527D3FE55781A7396EFE39E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5497257F9AD2F28E437C5E5992D0D734 /* Aspects */,
-				123DF6D1AB0A3A79FBE672FA7A8AF9CA /* FastDevTools */,
+				AB1C6504361C5C1B6E3D2AF3EB01ADC2 /* Aspects */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F58BDFA3535649F4E0376394DCD504B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9574DEBB3F753E8385B645E0696AC16 /* Aspects.xcconfig */,
+				786587BD911A45F5A76A03E1D23AA280 /* Aspects-dummy.m */,
+				979CADE3197D595B4D57148CEA299EBE /* Aspects-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Aspects";
 			sourceTree = "<group>";
 		};
 		FA5C9BCD159DBF5E8ED712956992E3D5 /* Pods-AOP_Demo */ = {
@@ -195,15 +142,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		47BCA73699560BFA429379CD0894FA66 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F35E714E7A993241D1B713F252BCF1A /* NSObject+AssetsSaveToPhotoLibrary.h in Headers */,
-				CE4216665FE49212C202758CAC8460BA /* YSW_WaterWave.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CB302CA4EBA9FFF481429AC873FB1DB8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,41 +153,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8BA20F39F2607F61E0C3208474458065 /* Pods-AOP_Demo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4013DFEA856810DA3D0CB22ED742CDC5 /* Build configuration list for PBXNativeTarget "Pods-AOP_Demo" */;
-			buildPhases = (
-				B329DDEFB3D1EB60B3CF6EF502639402 /* Sources */,
-				40D4462368C9D3EF31ACBE33A26ADA53 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				552D590CA11B8DF546108DB38C52E461 /* PBXTargetDependency */,
-				54EB5324E166EF400B5642335CEFA319 /* PBXTargetDependency */,
-			);
-			name = "Pods-AOP_Demo";
-			productName = "Pods-AOP_Demo";
-			productReference = C6F5635B4690A3F1FDDB2859980EA780 /* libPods-AOP_Demo.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		94B1E672275421449A85123DFE9BD7DA /* FastDevTools */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2312E64EAD0BC7C036559393412D8989 /* Build configuration list for PBXNativeTarget "FastDevTools" */;
-			buildPhases = (
-				5377F191247FE38D4D18823D164839E2 /* Sources */,
-				32FE65F0C31C4B1A81F184051F1E8FCD /* Frameworks */,
-				47BCA73699560BFA429379CD0894FA66 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FastDevTools;
-			productName = FastDevTools;
-			productReference = 2E88B18E25930E130D9C16E3F88A101E /* libFastDevTools.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		9FADA4D8276789ECF68B0188890DDC22 /* Aspects */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AB64521B3C6C55EB1FB276884CCE535 /* Build configuration list for PBXNativeTarget "Aspects" */;
@@ -264,7 +167,24 @@
 			);
 			name = Aspects;
 			productName = Aspects;
-			productReference = 916EF9059EACE37B3EB43091F775455F /* libAspects.a */;
+			productReference = 3956CE22C78DCFD205364926EBE13616 /* libAspects.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E7CDC518D6B0D440C3CE094B9E511E76 /* Pods-AOP_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C41A417BEE7BED270644EFA11EB6E52 /* Build configuration list for PBXNativeTarget "Pods-AOP_Demo" */;
+			buildPhases = (
+				CB0D8E160897AE45ADF14D6534E77B30 /* Sources */,
+				CD12ED1C79CC4EF565B73CF0298CE0AA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47E92BD233CCA0D949E6F015DFE7FC1B /* PBXTargetDependency */,
+			);
+			name = "Pods-AOP_Demo";
+			productName = "Pods-AOP_Demo";
+			productReference = CE9D771B04141E3182D3E116CA599DDB /* libPods-AOP_Demo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -284,28 +204,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2E657E4CD3B59AF18B681B22E3D29B9E /* Products */;
+			productRefGroup = A1A1FF4CB60F222B117C2DEE90F48053 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9FADA4D8276789ECF68B0188890DDC22 /* Aspects */,
-				94B1E672275421449A85123DFE9BD7DA /* FastDevTools */,
-				8BA20F39F2607F61E0C3208474458065 /* Pods-AOP_Demo */,
+				E7CDC518D6B0D440C3CE094B9E511E76 /* Pods-AOP_Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5377F191247FE38D4D18823D164839E2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				173F702E7290E30F545DDCF59A9FA563 /* FastDevTools-dummy.m in Sources */,
-				66C9E695B78BE3654990F8271506F3E5 /* NSObject+AssetsSaveToPhotoLibrary.m in Sources */,
-				C73BD322E98B54144B1F33A6275F183C /* YSW_WaterWave.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8152B019D21D5926DC7B047FEB2ADDDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,54 +224,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B329DDEFB3D1EB60B3CF6EF502639402 /* Sources */ = {
+		CB0D8E160897AE45ADF14D6534E77B30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A2D943B3EA93FCCCF74C0373013DCDC /* Pods-AOP_Demo-dummy.m in Sources */,
+				A8032110656777C8DB734B8FD4185C54 /* Pods-AOP_Demo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		54EB5324E166EF400B5642335CEFA319 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FastDevTools;
-			target = 94B1E672275421449A85123DFE9BD7DA /* FastDevTools */;
-			targetProxy = E5D8E4C2F73664E965393F1466A98FD9 /* PBXContainerItemProxy */;
-		};
-		552D590CA11B8DF546108DB38C52E461 /* PBXTargetDependency */ = {
+		47E92BD233CCA0D949E6F015DFE7FC1B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Aspects;
 			target = 9FADA4D8276789ECF68B0188890DDC22 /* Aspects */;
-			targetProxy = 9EB6D3D3B3702F0B8D0066F328B8A4CF /* PBXContainerItemProxy */;
+			targetProxy = EFE6E9B1842E6A629E05F1AE0F2EB80A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13AD8446507779862E1B4A01A12E7866 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4D4B8BCCD47A6125D6A94CCFC3250E2 /* Pods-AOP_Demo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -428,7 +309,7 @@
 		};
 		344DD6B17EAA0EE89B51EE47BAB3A4A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42DBFF799468E0ADB7607AAD365530EA /* Aspects.xcconfig */;
+			baseConfigurationReference = A9574DEBB3F753E8385B645E0696AC16 /* Aspects.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -450,7 +331,7 @@
 			};
 			name = Release;
 		};
-		79DC35BFEB5FED89DAF89BA11E668376 /* Debug */ = {
+		7196BD758DD9351D302EC63378BAA128 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AC239A3904EBA886D35433F9C450D7D9 /* Pods-AOP_Demo.debug.xcconfig */;
 			buildSettings = {
@@ -471,48 +352,23 @@
 			};
 			name = Debug;
 		};
-		9A3353039F28BFFE90D5006789B79BFA /* Debug */ = {
+		901A0D5D36842181E8043091DE6CBA8D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFFF444FCAF14CBD8966DC286EBE2E8F /* FastDevTools.xcconfig */;
+			baseConfigurationReference = C4D4B8BCCD47A6125D6A94CCFC3250E2 /* Pods-AOP_Demo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/FastDevTools/FastDevTools-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = FastDevTools;
-				PRODUCT_NAME = FastDevTools;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A3B0C8996A419901816D97CB5B91D449 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFFF444FCAF14CBD8966DC286EBE2E8F /* FastDevTools.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/FastDevTools/FastDevTools-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = FastDevTools;
-				PRODUCT_NAME = FastDevTools;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -520,7 +376,7 @@
 		};
 		E3DAC984B1B27E8FC4DA0382545D5B27 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42DBFF799468E0ADB7607AAD365530EA /* Aspects.xcconfig */;
+			baseConfigurationReference = A9574DEBB3F753E8385B645E0696AC16 /* Aspects.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -602,15 +458,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2312E64EAD0BC7C036559393412D8989 /* Build configuration list for PBXNativeTarget "FastDevTools" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9A3353039F28BFFE90D5006789B79BFA /* Debug */,
-				A3B0C8996A419901816D97CB5B91D449 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -620,11 +467,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4013DFEA856810DA3D0CB22ED742CDC5 /* Build configuration list for PBXNativeTarget "Pods-AOP_Demo" */ = {
+		7C41A417BEE7BED270644EFA11EB6E52 /* Build configuration list for PBXNativeTarget "Pods-AOP_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79DC35BFEB5FED89DAF89BA11E668376 /* Debug */,
-				13AD8446507779862E1B4A01A12E7866 /* Release */,
+				7196BD758DD9351D302EC63378BAA128 /* Debug */,
+				901A0D5D36842181E8043091DE6CBA8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
